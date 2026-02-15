@@ -1,17 +1,14 @@
 {
-  "name": "jumpscarebot",
+  "name": "soundguy",
   "version": "1.0.0",
-  "description": "Number 15: burger king jumpscare lettuce",
+  "description": "A fun Discord bot that will join an active voice channel, play a sound, and leave",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "keywords": [
-    "amongus"
-  ],
   "author": "BendedWills",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "@discordjs/voice": "^0.19.0",
     "@snazzah/davey": "^0.1.9",
