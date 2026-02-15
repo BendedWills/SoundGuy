@@ -173,7 +173,7 @@ process.openStdin().addListener('data', (d) =>
         const soundFilename = Utils.getFilenameFromInput(input);
         
         if (soundFilename)
-       		joinRandomVCs(getSound(filename));
+       		joinRandomVCs(getSound(soundFilename));
         else
             joinRandomVCs(getRandomSound());
     }
