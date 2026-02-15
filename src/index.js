@@ -22,7 +22,15 @@ catch (err)
 }
 
 console.log("Finding sounds...");
-const SOUND_PATHS = fs.readdirSync(CONFIG.soundsDir);
+let SOUND_PATHS;
+try {
+    SOUND_PATHS = fs.readdirSync(CONFIG.soundsDir);
+}
+catch (err)
+{
+    console.log("No sounds directory found! Try creating one and adding some sound files");
+    process.exit();
+}
 
 console.log("Creating discord.js client...");
 const client = new Client({ 
