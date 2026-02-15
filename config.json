@@ -1,7 +1,7 @@
 {
     "tokenFile": "token.txt",
     "soundsDir": "sounds",
-    "joinTimerCrontab": "*/10 * * * * *",
+    "joinTimerCrontab": "0 * * * *",
     "randomResponseChance": 0,
     "randomResponse": ""
 }
